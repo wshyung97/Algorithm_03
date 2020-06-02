@@ -1,6 +1,6 @@
 # Algorithm_03 CNN Testing by Wooseok Hyung
 
-## Language = Tensorflow(Teras), Dataset = MNIST
+## Language = Tensorflow(Keras), Dataset = MNIST
 ![Open](https://user-images.githubusercontent.com/66230126/83491019-01f08b00-a4ec-11ea-958d-99c610e881f7.PNG)
 
 

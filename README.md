@@ -31,7 +31,7 @@
 ### 1. Architecture
 ![Model3_Arch](https://user-images.githubusercontent.com/66230126/83495116-39facc80-a4f2-11ea-8a13-a664b406dddb.png)
 ### 2. Training : 5 epochs training (Optimizer=Adam, Loss function=Crossentropy)
-![Model3_Train](https://user-images.githubusercontent.com/66230126/83495002-120b600-a4f2-11ea-808a-a86d60546b33.PNG)
+![Model3_Train](https://user-images.githubusercontent.com/66230126/83495002-120b6900-a4f2-11ea-808a-a86d60546b33.PNG)
 ### 3. Test performance
 ![Model3_Acc](https://user-images.githubusercontent.com/66230126/83495009-13d52c80-a4f2-11ea-811a-19ce79b60048.PNG)
 ### 4. Examples of right prediction

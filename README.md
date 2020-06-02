@@ -1,4 +1,8 @@
-# Algorithm_03
+# Algorithm_03 CNN Testing by Wooseok Hyung
+
+## Language = Tensorflow(Teras), Dataset = MNIST
+![Open](https://user-images.githubusercontent.com/66230126/83491019-01f08b00-a4ec-11ea-958d-99c610e881f7.PNG)
+
 
 ## Model 1 : 3 Layer ( 3x3 Conv > 2x2 Max_Pool > FC (Activation:Softmax) )
 ![Model1](https://user-images.githubusercontent.com/66230126/83494832-cbb60a00-a4f1-11ea-93f1-9b13a6a460b9.PNG)

@@ -1,40 +1,40 @@
 # Algorithm_03
 
 ## Model 1 : 3 Layer ( 3x3 Conv > 2x2 Max_Pool > FC (Activation:Softmax) )
-![Model_1](https://user-images.githubusercontent.com/66230126/83489272-24cd7000-a4e9-11ea-85b8-b5e4b2a065f5.PNG)
+![Model1](https://user-images.githubusercontent.com/66230126/83494832-cbb60a00-a4f1-11ea-93f1-9b13a6a460b9.PNG)
 ### 1. Architecture
-![Model_1_Arch](https://user-images.githubusercontent.com/66230126/83489274-25660680-a4e9-11ea-9a67-74598919e712.PNG)
+![Model1_Arch](https://user-images.githubusercontent.com/66230126/83494835-cc4ea080-a4f1-11ea-9494-003ec3fcca2a.PNG)
 ### 2. Training : 5 epochs training (Optimizer=Adam, Loss function=Crossentropy)
-![Model_1_Train](https://user-images.githubusercontent.com/66230126/83489278-25fe9d00-a4e9-11ea-8cb6-be3287a7f2a5.PNG)
+![Model1_Train](https://user-images.githubusercontent.com/66230126/83494839-cce73700-a4f1-11ea-81aa-bd41da85a7be.PNG)
 ### 3. Test performance
-![Model_1_Acr](https://user-images.githubusercontent.com/66230126/83489273-25660680-a4e9-11ea-81ef-4b98c25d97d6.PNG)
+![Model1_Acc](https://user-images.githubusercontent.com/66230126/83494834-cbb60a00-a4f1-11ea-896a-d18da877eb43.PNG)
 ### 4. Examples of right prediction
-![Model_1_True_2](https://user-images.githubusercontent.com/66230126/83489268-2434d980-a4e9-11ea-9bde-b36fffe2ce90.PNG)
+![Model1_Right](https://user-images.githubusercontent.com/66230126/83494837-cc4ea080-a4f1-11ea-8beb-7eec5e0be5f2.PNG)
 ### 5. Examples of wrong prediction
-![Model_1_False](https://user-images.githubusercontent.com/66230126/83489276-25fe9d00-a4e9-11ea-9226-1790aafd8a9b.PNG)
+![Model1_Wrong](https://user-images.githubusercontent.com/66230126/83494826-ca84dd00-a4f1-11ea-8add-9038444b30d9.PNG)
 
 ## Model 2 : 5 Layer ( 3x3 Conv > 2x2 Max_Pool > 3x3 Conv > 2x2 Max_Pool > FC (Activation:Softmax) )
-![Model_2](https://user-images.githubusercontent.com/66230126/83489449-5f370d00-a4e9-11ea-92a3-510fb31e19e5.PNG)
+![Model2](https://user-images.githubusercontent.com/66230126/83494931-f4d69a80-a4f1-11ea-8b75-d611df55c18c.PNG)
 ### 1. Architecture
-![Model_2_Arch](https://user-images.githubusercontent.com/66230126/83489453-5fcfa380-a4e9-11ea-88ed-3d9887a88214.PNG)
+![Model2_Arch](https://user-images.githubusercontent.com/66230126/83494932-f607c780-a4f1-11ea-8c51-b7bf8cef9b79.PNG)
 ### 2. Training : 5 epochs training (Optimizer=Adam, Loss function=Crossentropy)
-![Model_2_Train](https://user-images.githubusercontent.com/66230126/83489457-60683a00-a4e9-11ea-8b72-53bb8728496a.PNG)
+![Model2_Train](https://user-images.githubusercontent.com/66230126/83494941-f99b4e80-a4f1-11ea-8040-ec974a444eaf.PNG)
 ### 3. Test performance
-![Model_2_Acr](https://user-images.githubusercontent.com/66230126/83489451-5fcfa380-a4e9-11ea-8aec-30cbe8a00125.PNG)
+![Model2_Acc](https://user-images.githubusercontent.com/66230126/83494945-fb651200-a4f1-11ea-89e6-ffefc2e3dfe2.PNG)
 ### 4. Examples of right prediction
-![Model_2_True2](https://user-images.githubusercontent.com/66230126/83489444-5e9e7680-a4e9-11ea-8786-32b0fae64832.PNG)
+![Model2_Right](https://user-images.githubusercontent.com/66230126/83494948-fd2ed580-a4f1-11ea-87f1-db39645f62b7.PNG)
 ### 5. Examples of wrong prediction
-![Model_2_False](https://user-images.githubusercontent.com/66230126/83489456-60683a00-a4e9-11ea-8930-80daab9ad53c.PNG)
+![Model2_Wrong](https://user-images.githubusercontent.com/66230126/83494949-fdc76c00-a4f1-11ea-8435-137254a7ace8.PNG)
 
 ## Model 3 : 7 Layer ( (3x3 Conv > 2x2 Max_Pool)*3 > FC (Activation:Softmax) )
-![Model_3](https://user-images.githubusercontent.com/66230126/83489489-6cec9280-a4e9-11ea-86ed-990d0e6cbaee.PNG)
+![Model3](https://user-images.githubusercontent.com/66230126/83495004-12a3ff80-a4f2-11ea-9844-8de36e267a27.PNG)
 ### 1. Architecture
-![Model_3_Arch](https://user-images.githubusercontent.com/66230126/83489491-6d852900-a4e9-11ea-9a23-407382ccf925.PNG)
+![Model3_Arch](https://user-images.githubusercontent.com/66230126/83495116-39facc80-a4f2-11ea-8a13-a664b406dddb.png)
 ### 2. Training : 5 epochs training (Optimizer=Adam, Loss function=Crossentropy)
-![Model_3_Train](https://user-images.githubusercontent.com/66230126/83489495-6e1dbf80-a4e9-11ea-9700-598823dc74c8.PNG)
+![Model3_Train](https://user-images.githubusercontent.com/66230126/83495002-120b600-a4f2-11ea-808a-a86d60546b33.PNG)
 ### 3. Test performance
-![Model_3_Acr](https://user-images.githubusercontent.com/66230126/83489490-6d852900-a4e9-11ea-8118-d252d21c138b.PNG)
+![Model3_Acc](https://user-images.githubusercontent.com/66230126/83495009-13d52c80-a4f2-11ea-811a-19ce79b60048.PNG)
 ### 4. Examples of right prediction
-![Model_3_True2](https://user-images.githubusercontent.com/66230126/83489485-6c53fc00-a4e9-11ea-8dfd-5cb465f82dc6.PNG)
+![Model3_Right](https://user-images.githubusercontent.com/66230126/83495014-159ef000-a4f2-11ea-80ae-baba86368274.PNG)
 ### 5. Examples of wrong prediction
-![Model_3_False](https://user-images.githubusercontent.com/66230126/83489493-6e1dbf80-a4e9-11ea-9105-5a2b4435b5e3.PNG)
+![Model3_Wrong](https://user-images.githubusercontent.com/66230126/83495017-16378680-a4f2-11ea-803c-1fd23b023aab.PNG)
